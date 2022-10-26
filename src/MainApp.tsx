@@ -1,6 +1,6 @@
-import { StatusBar } from "expo-status-bar"
-import { SafeAreaView, StyleSheet } from "react-native"
-import Title from "src/Title"
+import {StatusBar} from 'expo-status-bar'
+import {SafeAreaView, StyleSheet} from 'react-native'
+import Title from 'src/Title'
 
 export default function MainApp() {
   return (
@@ -14,6 +14,6 @@ export default function MainApp() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
   },
 })
