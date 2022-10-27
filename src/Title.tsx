@@ -14,9 +14,9 @@ export default function Title({title}: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
+    flexGrow: 0,
   },
   title: {
     fontSize: 30,
